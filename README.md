@@ -63,3 +63,11 @@ Mincer.BabelEngine.configure({
 ```
 
 Hint: The object in configure is passed to ``` babel ``` property of engine options.
+
+## Contribute
+
+* Bug? Missing Feature? Open Issue!
+* or Fork, Implement and open Pull Request
+
+## LICENSE
+[MIT](/LICENSE)
