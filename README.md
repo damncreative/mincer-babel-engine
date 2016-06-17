@@ -12,6 +12,6 @@
 
 **Codacy**
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4b85c1c632514d10a85397a5eeb06c8d)](https://www.codacy.com/app/naxmefy/mincer-babel-engine?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=damncreative/mincer-babel-engine&amp;utm_campaign=Badge_Grade)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4b85c1c632514d10a85397a5eeb06c8d)](https://www.codacy.com/app/naxmefy/mincer-babel-engine?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=damncreative/mincer-babel-engine&amp;utm_campaign=Badge_Coverage)
 
 [![NPM](https://nodei.co/npm/mincer-babel-engine.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mincer-babel-engine/)
