@@ -2,14 +2,9 @@
 
 var BabelEngine = require('..');
 var Mincer = require('mincer');
-
 BabelEngine({
-    extensions: ['.es6', '.js'],
-    babel: {
-        presets: ['es2015']
-    }
+    extensions: ['.es6', '.js']
 }, Mincer);
-
 var env = new Mincer.Environment(__dirname);
 env.appendPath('fixtures');
 
@@ -19,6 +14,12 @@ describe('Mincer Babel Engine', function () {
     });
 
     describe('compile', function () {
+        before(function() {
+            Mincer.BabelEngine.configure({
+                presets: ['es2015']
+            });
+        });
+        
         it('should find fixtures', function() {
             var asset = env.findAsset('with-es6-ext').toString();
             eval(asset).should.be.eql('with es6 ext');
