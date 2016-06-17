@@ -1,18 +1,18 @@
 'use strict';
 
-var BabelEngine = require('..');
-var Mincer = require('mincer');
-BabelEngine({
+var babelEngine = require('..');
+var mincer = require('mincer');
+babelEngine({
     extensions: ['.es6', '.js']
-}, Mincer);
+}, mincer);
 
 before(function() {
-    this.Mincer = Mincer;
-    this.BabelEngine = BabelEngine;
+    this.Mincer = mincer;
+    this.BabelEngine = babelEngine;
 });
 
 beforeEach(function() {
-    this.Env = new Mincer.Environment(__dirname);
+    this.Env = new this.Mincer.Environment(__dirname);
     this.Env.appendPath('fixtures');
 });
 
