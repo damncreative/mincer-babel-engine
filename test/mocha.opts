@@ -1,6 +1,4 @@
 --ui bdd
 --reporter list
---recursive
 --colors
---compilers js:babel-core/register
 --require should
