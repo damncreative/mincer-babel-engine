@@ -2,3 +2,4 @@
 --reporter list
 --colors
 --require should
+--timeout 5000
