@@ -2,9 +2,9 @@
 
 var babelEngine = require('..');
 var mincer = require('mincer');
-babelEngine({
+babelEngine(mincer, {
     extensions: ['.es6', '.js']
-}, mincer);
+});
 
 before(function() {
     this.Mincer = mincer;
