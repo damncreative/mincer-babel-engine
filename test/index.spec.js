@@ -1,7 +1,5 @@
 'use strict';
 
-var path = require('path');
-
 var BabelEngine = require('..');
 var Mincer = require('mincer');
 
